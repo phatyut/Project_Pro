@@ -8,7 +8,7 @@
             </div>
 
             <div class="relative bg-linear-to-b from-[#A64451] to-[#B66271] w-full h-10 flex items-center justify-center">
-                <div class="h-full w-[85%] flex items-center space-x-2 ">
+                <div class="h-full w-[90%] flex items-center space-x-2 ">
                     <Menu/>
                 </div>
             </div>

@@ -36,7 +36,7 @@
                     <div class="flex justify-center items-center">
                         <button class=" font-bold text-[12px] text-[#A64451] text-shadow-love text-shadow-white hover:text-black ">New Product</button>
                     </div>
-                    <div class=" absolute flex justify-center items-center -top-1 rounded-full -right-1 z-20 font-serif bg-green-700 w-[13px] h-[13px]  text-[13px]">
+                    <div class=" absolute flex justify-center items-center -top-2 rounded-full -right-1 font-serif bg-green-700 w-auto h-3.25 px-1  text-[13px]">
                         <span class="text-white">{{ number_newproduct }}</span>
                     </div>
                 </div>
