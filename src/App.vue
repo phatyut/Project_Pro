@@ -1,5 +1,5 @@
 <template>
-  <div class="border-0 m-0 box-border relative">
+  <div class="border-0 m-0 box-border relative overflow-hidden">
        <div>
           <Mainpage/>
        </div>

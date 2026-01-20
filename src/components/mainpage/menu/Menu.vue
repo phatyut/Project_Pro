@@ -31,7 +31,6 @@
                 <div class=" relative flex items-center justify-center space-x-1 px-2 py-0.5 border-b-2  bg-white hover:bg-gray-200  ">
                     <div class="flex justify-center items-center">
                        <font-awesome-icon :icon="['fas', 'file-pen']" class="text-[#A64451] text-[13px]" />
-
                     </div>
                     <div class="flex justify-center items-center">
                         <button class=" font-bold text-[12px] text-[#A64451] text-shadow-love text-shadow-white hover:text-black ">New Product</button>

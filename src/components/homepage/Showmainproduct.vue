@@ -1,23 +1,26 @@
 <template>
-    <div class="relative w-full h-auto ">
-        <div class="relative w-full h-auto flex bg-[#A54B57]">
-            
-            <div class="absolute top-0 left-0 w-[50%] h-125 bg-linear-to-l from-[#A54B57] 
-                         to-transparent  rounded-r-full">
-
-                         <div class="relative w-full  flex justify-center items-center h-125">
-                            <div class="relative h-full w-[50%] border ">
-
-                                <h2 class="text-center text-white text-shadow-2xs text-show-blue">StartTech Solution</h2>
+    <div class="relative w-full h-auto">
+        <div class="relative w-full h-auto flex bg-linear-to-t to-[#A54B57] from-[#A54B57]">
+            <!-- ___________________________________________________ -->
+                <div class="mt-50 relative -white flex justify-center items-center w-full ">
+                        <div class=" flex  relative w-[95%]  h-auto justify-between">
+                            <div class="w-[50%] flex flex-col items-center justify-center space-y-8.5  bg-linear-to-b from-[#b26d76] to-transparent  via-transparent rounded-t-full ">
+                                <h1 class="text-white text-5xl font-bold">SmartTect Solution</h1>
+                                <div class="text-white indent-2.5 font-semibold text-xl">
+                                    Empowering your business with expert <br>
+                                    IT support and top-tier tech products.
+                                </div>
+                                <div>
+                                    <button class="bg-white px-3.5 py-1.5 rounded-[5px] font-semibold text-blue-800 hover:bg-gray-200">Export Service</button>
+                                </div>
+                                
                             </div>
-                         </div>
-            </div>
-            <div class="absolute top-0 right-0 w-[50%] h-125 opacity-90  rounded-l-full z-0">
-                
-            </div>
-            <div class=" absolute right-0 top-0 ">
-                <img src="../../../public/images/v380camera.png" alt=""  class="z-10 h-120">
-            </div>
+                            <div class=" w-[50%] flex justify-center bg-center bg-linear-to-t from-[#b26d76] to-transparent  via-transparent rounded-b-full  ">
+                                    <img src="../../../public/images/v380camera.png" class="w-125 " alt="">
+                            </div>                        
+                        </div>
+                </div>
+            <!-- ___________________________________________________ -->
         </div>
     </div>
 </template>

@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
-
-
 @theme {
-  --text-shadow-love: 0 35px 35px rgb(0, 0, 0 / 0.25); 
+  --inset-shadow-test: inset 0 0px 200px rgba(0, 0, 0, 1);
+  --font-love: Algerian;
+  --text-shadow-check: 0px 2px 2px rgba(0, 100, 0,0.50);
+  --bg-white-blur:rgba(255, 255, 255,0.30);
+}
+
+
+@keyframes sc {
+  /* empty */
+}
+
+@utilities { 
+  .shadow-green-inset { box-shadow: var(--inset-shadow-test); } 
 }
