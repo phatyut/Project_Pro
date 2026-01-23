@@ -1,17 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  --inset-shadow-test: inset 0 0px 200px rgba(0, 0, 0, 1);
+  --inset-shadow-test: inset 0 0px 10px rgba(43, 158, 51, 1);
+  --inset-shadow-search: inset 0 0px 10px rgba(0, 0, 0, 1);
   --font-love: Algerian;
   --text-shadow-check: 0px 2px 2px rgba(0, 100, 0,0.50);
   --bg-white-blur:rgba(255, 255, 255,0.30);
 }
 
 
-@keyframes sc {
-  /* empty */
-}
 
-@utilities { 
+
+/* @utilities { 
   .shadow-green-inset { box-shadow: var(--inset-shadow-test); } 
+  .clip-product {clip-path: polygon(0 0, 100% 0, 150px 10px, 0 100%);
+ }
+} */
+
+
+@layer utilities {
+  .clip-path-product {
+    width: 600px;
+    height: 80px;
+    position: relative;
+  
+    /* clip-path: path("M0 0 L20 0 L25 5     L25 25 L30 30   L100 30 L105 25 L105 5 L110 0    L115 0 L120 5 L120 25 L125 30 L195 30 L200 25 L200 5 L205 0 L210 0    L215 5 L215 25 L220 30 L300 30 L305 25 L305 5 L310 0    L315 0 L320 5  L320 25 L325 30 L410 30 L415 25 L415 5 L420 0    L445 0 L450  5 L450 75 L445 80      L370 80 L365 75 L365 55 L360 50 L135 50 L130 55 L130 75 L125 80 L5 80 L0 75          Z" 
+                                  
+    ); */
+    
+  }
 }

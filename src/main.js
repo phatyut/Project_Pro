@@ -13,7 +13,10 @@ import {
          faCartShopping,
          faHouseChimney,
          faGear,
-         faFilePen
+         faFilePen,
+         faStar
+      
+       
         
          } from '@fortawesome/free-solid-svg-icons' 
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
@@ -25,11 +28,17 @@ library.add(
             faCartShopping,
             faHouseChimney,
             faGear,
-            faFilePen
+            faFilePen,
+            faStar
+           
+            
+           
         );
 
 
 
+import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons'
+library.add(faStarRegular)
 
 // _____________import pages/components_________________
 import Home from "./components/homepage/Homepage.vue"
