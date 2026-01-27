@@ -48,6 +48,8 @@ import Service from './components/service/Service.vue'
 import Login from './components/register/login/Login.vue'
 import Signup from './components/register/signup/Signup.vue'
 
+import Testvue from './testingvue/Testvue.vue';
+
 
 
 
@@ -63,6 +65,12 @@ const router = createRouter({
         {path:'/service',component:Service},
         {path:'/login',component:Login},
         {path:'/signup',component:Signup},
+
+
+// ----------------test vue
+
+
+        {path:'/testvue',component:Testvue}
       
     ]
 })
@@ -75,9 +83,6 @@ const app = createApp(App)
 
 
 // _________________register fontawesome_________________
-
-
-
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 

@@ -5,9 +5,27 @@
        </div>
 
 
+
+<!--    these lines for test only vue -->
+
+       <router-link to="/testvue">
+              <div class="absolute right-0 top-0 bg-green-500 px-2.5 py-1.5 rounded-md">
+                <div>
+                  <button>Only Test vue</button>
+                  </div>
+                </div>       
+        </router-link>
+
+
+
+
+
+
        <div>
           <router-view></router-view>
       </div>
+
+
   </div>
 </template>
 <script>

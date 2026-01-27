@@ -80,8 +80,12 @@
 <script>
 import Searchbar from '../../searchbar/Searchbar.vue';
 
+
 export default{
-    components:{Searchbar},
+    components:{
+        Searchbar,
+        
+    },
     data(){
         return {
             number_newproduct: 100,
