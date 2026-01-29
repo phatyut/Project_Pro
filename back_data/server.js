@@ -10,9 +10,18 @@ app.post('addproduct',(req,res)=>{
                 items:newitems,
             })
 })
+
+app.get("/homepage",(req,res)=>{
+    res.send("love you.")
+})
+
+
+
 app.get("/checkproduct",(req,res)=>{
     res.json(itemproduct);
 })
+
+
 const port = 8080;
 app.listen(port,()=>{
     console.log(`Server running on port ${port}`)
