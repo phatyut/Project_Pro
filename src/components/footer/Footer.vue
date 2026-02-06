@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-red-900">
+    <div class="bg-red-900 flex">
         Footer
     </div>
 </template>

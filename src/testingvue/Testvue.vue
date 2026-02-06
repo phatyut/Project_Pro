@@ -31,8 +31,14 @@
                 </div> -->
 
 
-                <div>
+                <!-- <div>
                     <InputForm></InputForm>
+                </div> -->
+                
+
+
+                <div>
+                    <Props></Props>
                 </div>
 
         </div>
@@ -45,6 +51,7 @@ import Condition from './condition/Condition.vue';
 import List_loop from './for_list_rendering/List_loop.vue';
 import Events from './events/Events.vue';
 import InputForm from './Inputform/InputForm.vue';
+import Props from './prop/Props.vue';
     export default{
 
         components:{
@@ -52,7 +59,8 @@ import InputForm from './Inputform/InputForm.vue';
             Condition,
             List_loop,
             Events,
-            InputForm
+            InputForm,
+            Props
         },
 
         data(){
